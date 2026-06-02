@@ -718,3 +718,35 @@ img {
         font-size: 30px;
     }
 }
+.project-actions {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    flex-wrap: wrap;
+    margin: 10px 0 45px;
+}
+
+.project-video-section {
+    margin-top: 45px;
+}
+
+.project-video-wrap {
+    width: 100%;
+    background: #000;
+    border-radius: 28px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    margin: 20px 0 18px;
+}
+
+.project-video {
+    width: 100%;
+    display: block;
+    max-height: 560px;
+    background: #000;
+}
+
+.project-note {
+    font-size: 15px !important;
+    color: var(--muted);
+}
